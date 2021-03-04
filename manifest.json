@@ -1,0 +1,11 @@
+{
+  "name": "AudioChess",
+  "version": "1.0",
+  "description": "Voice controlled chess.com/lichess.org",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://lichess.org/*"],
+    "js": ["chess.js", "chess-nlp.js", "index.js"]
+  }]
+
+}
